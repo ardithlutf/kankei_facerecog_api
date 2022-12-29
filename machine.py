@@ -1,10 +1,10 @@
 import io
 import cv2
 import dlib
-import numpy as np
 import face_recognition
 import base64
 from PIL import Image
+import numpy as np
 import urllib.request as ur
 
 detector = dlib.get_frontal_face_detector()
